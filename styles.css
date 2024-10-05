@@ -323,12 +323,13 @@ footer {
 }
 
 footer .contact {
-    padding: 0 clamp(50px, 15vw, 450px);
+    padding: 0 clamp(10px, 10vw, 450px);
 }
 
 footer .contact-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
 
 footer .contact-items div img {
@@ -392,5 +393,20 @@ footer p {
         height: auto;
     }
 
+    footer .contact .contact-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .contact .contact-items div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer .contact .contact-items div img {
+        margin: 0;
+        margin-left: 10px;
+    }
 
 }
