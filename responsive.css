@@ -1,0 +1,118 @@
+/* responsive */
+@media screen and (max-width: 850px) {
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        padding: 5vh 0;
+    }
+
+    #home .profile-text {
+        margin: 10vw 0;
+    }
+
+    #skills .skills-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #projects .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project {
+        height: auto;
+    }
+
+    footer .contact .contact-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer .contact .contact-items div {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer .contact .contact-items div img {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+}
+
+/* responsive */
+@media screen and (max-width: 550px) {
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .nav-icon {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .nav-icon:hover+.mobile-nav,
+    .mobile-nav:hover {
+        cursor: pointer;
+        display: block;
+    }
+
+    .mobile-nav ul li a:hover {
+        background: linear-gradient(90deg, #B86ADF 0%, #FF6C63 50%, #FFB147 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+
+
+    #home {
+        flex-direction: column-reverse;
+        padding: 5vh 0;
+    }
+
+    #home .profile-text {
+        margin: 10vw 0;
+    }
+
+    #skills .skills-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #projects .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project {
+        height: auto;
+    }
+
+    footer .contact .contact-items {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .contact .contact-items div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer .contact .contact-items div img {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    footer .contact .contact-items div p {
+        display: none;
+    }
+
+}
