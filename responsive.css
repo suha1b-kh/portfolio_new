@@ -109,6 +109,16 @@
         margin: 10vw 0;
     }
 
+    .profile-text p {
+        font-size: 1.1rem;
+        text-wrap: wrap;
+        padding: 0 1rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
     #skills .skills-items {
         grid-template-columns: repeat(2, 1fr);
     }
